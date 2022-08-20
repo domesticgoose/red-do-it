@@ -1,0 +1,15 @@
+{
+  "manifest_version": 2,
+  "name": "red-do-it",
+  "description": "turns normal reddit links into old.reddit links",
+  "version": "1.0",
+    "permissions": [
+    "webRequest",
+    "webRequestBlocking",
+    "https://www.reddit.com/"
+  ],
+
+  "background": {
+    "scripts": ["redo.js"]
+  }
+}
